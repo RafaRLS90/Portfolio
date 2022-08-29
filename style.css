@@ -336,6 +336,11 @@ header{
     height: 100%;
     border-radius: .5rem;
     opacity: 5;
+    transition: opacity .3;
+}
+
+.card:hover .card-img-wrapper img{
+    opacity: .5;
 }
 
 .card-info{
